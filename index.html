@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ Perdoname ♥</title>
+  <style>
+    .body {
+      background-color: crimson;
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ Perdoname Mi Amor di que si♥</h1>
+  <img src="https://i.pinimg.com/564x/6f/1b/d1/6f1bd12fc5108659acaf99897e1d8d6d.jpg" alt="Foto de Mi" class="body__img" />
+  <br>
+  <button id="yes">🌚Si, pero sigo enojada🌚</button>
+  <button id="no">😭No,estoy enojada😭</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('♥ Primero, calmate y mira :v ');
+      alert('💞Con los hermosos ojos que tienes💞');
+      alert('Se que falle, dame una oportunidad por favor');
+      alert('En tu mente dices no, pero que dice tu corazon?');
+      alert('💞Wiii dijo que si cierto?');
+      alert('O no?😱');
+      alert('♥ Por favor di que sii amorcito');
+      alert('Sí, lo prometo sera la ultima');
+      alert('Gracias amor, por todo');
+      alert('Se que no me disculpaste 😔');
+      alert('Como tambien se que te saque una sonrisa, TE AMO');
+      location.href = 'https://www.youtube.com/watch?v=WQMCyg10VnQ';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
